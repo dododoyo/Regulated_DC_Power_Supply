@@ -66,10 +66,11 @@ Here is a table of the components that were used for the completion of this proj
 <br>
 
 # The Transformer
+
 ![Transformer](images/Transformer.gif)
+
 <div id = transformerVideo align = "middle" ><p>
-Video 2: Transformer animation</i></b> </p>
-</div>
+Video 2: Transformer animation</i></b> </p></div>
 
 Transformers are electrical devices that consist of two or more coils of wire used to transfer of convert voltage of electrical energy using alternating magnetic fields without change of electric field. A transformer can be either a step down or a step up. Which basically depend on the number of turns in the primary and secondary windings. Mathematically the relation is given as:
 
@@ -129,13 +130,13 @@ One assumption we will make about our diodes is that although they may exhibit s
 
 # The Smoothing Filter
 
- ![Transformer](images/RectifierWithFilter.gif)
- <div align = "middle" ><p>Video 4: Filter Circuit Animation </p>
-</div>
+ ![SmoothingFilter](images/RectifierWithFilter.gif)
+ <div align = "middle" ><p>Video 4: Filter Circuit Animation </p></div>
+
 Filter circuits are combinations of R, L or C elements which improve the rectification, and efficiency of a rectifier circuit by reducing the ripple factor. Since for the case of our circuit the rectified voltage is used as an input for further filtering. The theory of operation of a capacitor is simple. The basic principle is that to fill a dielectric material between two conducting surfaces to store more energy. In DC circuit the voltage source is generally used as a charge to fill the capacitor with charges. 
 But in the case of AC circuits the main use of capacitor will start to show up. This is because when the circuit is going through the first phase of charging the capacitor is also charged to the peak voltage, then until the circuit goes through the other half of the cycle since the capacitor wouldn’t allow the drastic drop of voltage a constant potential difference across the connected load it will provide a steady voltage drop. The capacitor offers very low resistance to high frequency signals, for this reason high frequency signals go through the capacitor and low frequency signals like DC signals will go through the resistor. The basic assumptions we took for this case is that to make sure the lifetime of the capacitor is much greater than the period of our signal. So, our capacitor can give its full capacity with enough time.
 
-![Rectifier With Filter](images/RectifierWithFilter.png)
+![RectifierWithFilter](images/RectifierWithFilter.png)
 <div id = filter align = "middle" ><p>
  Figure 6: Rectifier and Filter Circuit Simulation in <b><i>LTSpice</i></b> </p>
 </div>
@@ -161,14 +162,13 @@ NOTE:  the values of R and C  will not be calculated here for reason to be discu
 
 ![Graph of Rectifier With Filter](images/RectifierWithFilterGraph.png)
 <div id = filter align = "middle" ><p>Figure 7: Graphed Rectifier and Filter Circuit Simulation in <b><i>LTSpice</i></b> </p>
-</div
-<br>
+</div>
 
 # The Regulator
 
 ![Regulator](images/Regulator.gif)
- <div align = "middle" ><p>Video 5: Regulator Circuit Animation </p>
-</div>
+
+<div align = "left" ><p>Video 5: Regulator Circuit Animation</p></div>
  Voltage regulator are one of the most important and commonly used electrical component in electrical engineering. Voltage regulators are responsible for maintaining a steady voltage across an electronic system. 
  Voltage fluctuations may result in undesirable effect on an electronic system, so to maintaining a steady constant voltage is necessary according to the voltage requirement of a system. 
          
