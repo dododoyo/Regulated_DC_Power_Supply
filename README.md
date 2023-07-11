@@ -130,7 +130,7 @@ One assumption we will make about our diodes is that although they may exhibit s
 
 # The Smoothing Filter
 
- ![SmoothingFilter](images/RectfierWithFilter.gif)
+ ![SmoothingFilter](images/RectifierWithFilter.gif)
  <div align = "middle" ><p>Video 4: Filter Circuit Animation </p></div>
 
 Filter circuits are combinations of R, L or C elements which improve the rectification, and efficiency of a rectifier circuit by reducing the ripple factor. Since for the case of our circuit the rectified voltage is used as an input for further filtering. The theory of operation of a capacitor is simple. The basic principle is that to fill a dielectric material between two conducting surfaces to store more energy. In DC circuit the voltage source is generally used as a charge to fill the capacitor with charges. 
